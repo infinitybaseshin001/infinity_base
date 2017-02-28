@@ -1,0 +1,10 @@
+<Files *.php>
+php_value mbstring.internal_encoding "UTF-8"
+php_value mbstring.http_input "UTF-8"
+php_value mbstring.http_output "UTF-8"
+php_value mbstring.detect_order "ASCII,JIS,UTF-8,SJIS,EUC-JP"
+php_value mbstring.language "Japanese"
+
+php_value zlib.output_compression "1024"
+php_value zlib.output_compression_level "1"
+</Files>
